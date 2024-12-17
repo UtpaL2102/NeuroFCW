@@ -9,7 +9,7 @@ NeuroFCW is an advanced Forward Collision Warning (FCW) system powered by Genera
 
 Below is the high-level system architecture overview for **NeuroFCW**:
 
-![System Architecture](img/fcw.jpg)
+![System Architecture](img/FCW1.png)
 
 ---
 
