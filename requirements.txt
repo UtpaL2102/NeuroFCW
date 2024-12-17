@@ -1,0 +1,11 @@
+langchain
+chromadb
+sentence-transformers
+PyPDF2
+python-dotenv
+langchain_chroma
+langchain-google-genai
+docx2txt
+langchain_core
+langchain_huggingface
+pdfplumber

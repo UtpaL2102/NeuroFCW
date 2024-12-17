@@ -1,0 +1,7 @@
+venv
+.env
+__pycache__
+.ipynb_checkpoints
+yolo11m.pt
+test.md
+workdir
