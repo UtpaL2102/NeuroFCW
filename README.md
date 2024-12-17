@@ -1,7 +1,7 @@
 # 🚀 **NeuroFCW - Neural Network-Based FCW System**
-**Author - Aryan Pandey, Priyadarshi Utpal and Sanket Poojari**
+**Author - Aryan Pandey, Priyadarshi Uttpal and Sanket Poojary**
 
-NeuroFCW is an innovative **Forward Collision Warning (FCW)** system that leverages **Generative AI** and **Neural Networks** for automated FCW code generation, test case validation, and continuous improvement. 
+NeuroFCW is an advanced Forward Collision Warning (FCW) system powered by Generative AI, Neural Networks, and a Graph-RAG architecture. It automates code generation, test case creation, and continuous validation for FCW systems, ensuring robustness, precision, and real-world readiness.
 
 ---
 
@@ -9,21 +9,21 @@ NeuroFCW is an innovative **Forward Collision Warning (FCW)** system that levera
 
 Below is the high-level system architecture overview for **NeuroFCW**:
 
-![System Architecture](fcw.jpg)
+![System Architecture](img/fcw.jpg)
 
 ---
 
 ### 🧠 **Key Features**
-1. **Document Processing**  
-   - Segments input documents into manageable chunks for LLM-based processing.
+1. **Document Segmentation and Preprocessing**  
+   - Breaks down input documents into manageable segments for efficient processing.
 
-2. **Knowledge Base Integration**  
+2. **Graph-RAG Knowledge Retrieval**  
    - Stores and retrieves safety standards, MISRA guidelines, test cases, and code examples using **Neo4j Graph Knowledge Base**.
 
 3. **Graph-RAG Code Generation**  
    - Generates FCW code compliant with MISRA standards using:
      - Contextual data retrieval
-     - Code generation with a **Large Language Model (LLM) API**
+     - Code generation with a **Large Language Model (LLM) API (Llama-3.3-70b pre-trained LLM)**
 
 4. **Graph-RAG Test Case Generation**  
    - Automatically generates comprehensive test cases with relevant test patterns.
@@ -34,24 +34,29 @@ Below is the high-level system architecture overview for **NeuroFCW**:
 6. **Validation & Continuous Improvement**  
    - Failed test cases are logged and used to improve future FCW code.
 
+7. **Performance Logging**
+   - Logs critical metrics such as detection accuracy, processing speed, and code validation success rates to ensure real-world deployment readiness.
+
+
 ---
 
 ### 🛠 **Tech Stack**
-- **AI/ML**: LangChain, YOLO (Object Detection)
+- **AI/ML**: YOLOv11, LangChain, OpenAI APIs
 - **Databases**: Neo4j, SQLite
 - **Programming Languages**: Python
-- **DevOps Tools**: Jenkins, GitHub
-- **Frameworks**: Large Language Model APIs, Graph-RAG
+- **DevOps Tools**: Jenkins, GitHub Actions, CARLA Simulation
+- **Frameworks**: Large Language Models (LLMs), Graph-RAG
 
 ---
 
 ### 📂 **System Workflow**
 The system operates in the following steps:
 1. **Input Documents** → Segmented into manageable chunks.
-2. **Knowledge Base Processing** → Stores MISRA guidelines, safety standards, and examples.
-3. **Code Generation** → LLM APIs generate compliant FCW code.
+2. **Knowledge Base Processing** → Neo4j Aura graph database retrieves relevant guidelines and safety standards.
+3. **Code Generation** → LLM APIs generate FCW code tailored to input requirements with MISRA compliance.
 4. **Test Case Generation** → Retrieves patterns and validates with YOLO.
-5. **Validation** → Test results logged, and the FCW system is updated continuously.
+5. **Validation** → Test results logged, and the FCW system is updated continuously
+6. **Perfromance metrics** → Critical KPIs (accuracy, processing speed, and anomaly handling) are logged for analysis.
 
 ---
 
@@ -63,23 +68,17 @@ The system operates in the following steps:
 ---
 
 ### 📈 **Future Scope**
-- Integration with real-time simulation environments.
-- Enhanced model fine-tuning for edge cases.
-- Expanded use cases for autonomous driving.
 
----
+- Multi-Sensor Fusion with LiDAR, Radar, and Camera Systems
+- Enhanced Fine-Tuning of LLMs for Anomaly Handling
+- Reinforcement Learning for ADAS Decision-Making
+- Energy-Efficient ML Models using lightweight and quantized ML models
 
-### 📷 **System Flowchart**
-The full **System Architecture** flowchart is visualized below:
-
-![NeuroFCW System Architecture](img/fcw.jpg)
-
----
 
 ### 🤝 **Contributors**
 - Aryan Pandey
-- Priyadarshi Utpal
-- Sanket Poojari
+- Priyadarshi Uttpal
+- Sanket Poojary
 
 ---
 
@@ -101,6 +100,7 @@ The full **System Architecture** flowchart is visualized below:
 
 ### 🌟 **Contact**
 For more information, reach me at:  
-📧 **aryan2002pandeythrgrt@gmail.com**  
-
+- 📧 **aryan2002pandeythrgrt@gmail.com**  
+- 📧 **sanketpoojary003@gmail.com**
+- 📧 **priyadarshiutpal06@gmail.com**
 ---
