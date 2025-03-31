@@ -1,4 +1,4 @@
-# 🏆 **Tata Elxsi Innovation Challenge - Top 50 (All India) 🏆**
+# 🏆 **Tata Elxsi Innovation Challenge - Top 50 (All India) **
 
 Author - Priyadarshi Uttpal, Aryan Pandey, and Sanket Poojary
 
