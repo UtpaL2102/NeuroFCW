@@ -1,7 +1,9 @@
-# 🚀 **NeuroFCW - Neural Network-Based FCW System**
-**Author - Priyadarshi Uttpal, Aryan Pandey and Sanket Poojary**
+# 🏆 **Tata Elxsi Innovation Challenge - Top 50 (All India) 🏆**
+
+Author - Priyadarshi Uttpal, Aryan Pandey, and Sanket Poojary
 
 NeuroFCW is an advanced Forward Collision Warning (FCW) system powered by Generative AI, Neural Networks, and a Graph-RAG architecture. It automates code generation, test case creation, and continuous validation for FCW systems, ensuring robustness, precision, and real-world readiness.
+
 
 ---
 
